@@ -128,7 +128,7 @@
         <Button
             android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
-            android:text="ADD"
+            android:text="Update"
             android:id="@+id/btnSave"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
