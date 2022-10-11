@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:backgroundTint="@color/Backgroud"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:textColor="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:text="CONFIRMATION"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingLeft="22dp"
+        android:background="@color/secondaryColor"
+        android:fontFamily="@font/poppinsbold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Do You Want to Delete this Task ?"
+        android:textSize="16dp"
+        android:paddingLeft="22dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinsregular"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="110dp"
+        >
+        <Button
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:text="CANCEL"
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/White"
+            android:fontFamily="@font/poppinsregular"
+            />
+        <Button
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:text="DELETE"
+            android:textColor="@color/White"
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:fontFamily="@font/poppinsregular"
+            />
+    </LinearLayout>
+</LinearLayout>

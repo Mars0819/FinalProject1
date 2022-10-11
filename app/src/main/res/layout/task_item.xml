@@ -1,0 +1,125 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/button_shape"
+    android:id="@+id/relativeLayout"
+    android:backgroundTint="@color/secondaryColor"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:paddingTop="20dp"
+          android:id="@+id/titleRow"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="16dp"
+              android:layout_marginEnd="16dp"
+              android:layout_marginBottom="8dp"
+              android:layout_marginStart="20dp"
+              android:src="@drawable/ic_baseline_text_fields_24"
+              />
+          <TextView
+              android:textColor="@color/White"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:textSize="15sp"
+              android:layout_gravity="center_vertical"
+              android:id="@+id/tvTask"
+              android:text="Task"
+              android:fontFamily="@font/poppinsregular"
+              />
+      </LinearLayout>
+        <LinearLayout
+
+            android:id="@+id/dateRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleRow"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_baseline_calendar_today_24"
+                />
+
+            <TextView
+                android:id="@+id/dateTitle"
+                android:textColor="@color/White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_vertical"
+                android:text="Date"
+                android:fontFamily="@font/poppinsregular"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_below="@+id/dateRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_baseline_access_time_24"
+                />
+
+            <TextView
+                android:id="@+id/timeTitle"
+                android:textColor="@color/White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:layout_gravity="center_vertical"
+                android:text="Time"
+                android:fontFamily="@font/poppinsregular"
+
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <Button
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_shape"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:id="@+id/btnDelete"
+        android:text="DELETE"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="@color/Black"
+        android:backgroundTint="@color/White"
+        android:fontFamily="@font/poppinsregular"
+
+        />
+
+</RelativeLayout>
