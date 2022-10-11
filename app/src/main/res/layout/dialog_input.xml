@@ -44,7 +44,6 @@
             android:layout_marginTop="16dp"
             android:layout_marginLeft="22dp"
             android:src="@drawable/ic_baseline_text_fields_24"
-            android:background="@color/secondaryColor"
             />
         <EditText
             android:layout_marginRight="30dp"
@@ -69,8 +68,7 @@
             android:layout_marginLeft="22dp"
             android:layout_marginTop="16dp"
             android:src="@drawable/ic_baseline_calendar_today_24"
-            android:background="@color/secondaryColor"            />
-
+        />
         <TextView
             android:id="@+id/date"
             android:layout_width="match_parent"
@@ -94,8 +92,7 @@
             android:layout_marginLeft="22dp"
             android:layout_marginTop="16dp"
             android:src="@drawable/ic_baseline_access_time_24"
-            android:background="@color/secondaryColor"/>
-
+        />
         <TextView
             android:id="@+id/time"
             android:layout_width="match_parent"

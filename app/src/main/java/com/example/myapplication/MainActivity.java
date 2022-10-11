@@ -40,7 +40,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity  implements  PopupDialogClickListener{
 
-    Button btnSave,btnCancel,btnDelete,btnUpdate;
+    Button btnSave,btnCancel,btnDelete;
     EditText edtName;
     TextView tanggal,waktu;
     RecyclerView rvTask;

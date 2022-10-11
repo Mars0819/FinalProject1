@@ -4,9 +4,10 @@
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
     android:layout_margin="10dp"
-    android:background="@drawable/button_shape"
     android:id="@+id/relativeLayout"
-    android:backgroundTint="@color/secondaryColor"
+    android:background="@drawable/button_shape"
+
+
     >
     <RelativeLayout
         android:layout_width="match_parent"
@@ -107,19 +108,13 @@
 
     </RelativeLayout>
     <Button
-        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
         android:layout_alignParentRight="true"
-        android:background="@drawable/button_shape"
         android:layout_marginRight="20dp"
-        android:textSize="15sp"
         android:id="@+id/btnDelete"
-        android:text="DELETE"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="35dp"
-        android:textColor="@color/Black"
-        android:backgroundTint="@color/White"
-        android:fontFamily="@font/poppinsregular"
-
+        android:background="@drawable/ic_baseline_delete_24"
         />
 
 </RelativeLayout>
