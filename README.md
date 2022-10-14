@@ -1,8 +1,8 @@
 # FinalProject1 DO-LIST
-ANGGOTA KELOMPOK
-Umar Alfaruq Abdul Aziz -JVAN-KS04-003,
-Hani fatul Hikmah - JVAN-KS04-021,
-Dian Rahmi Oktaviani - JVAN-KS04-024
+ANGGOTA KELOMPOK<br>
+Umar Alfaruq Abdul Aziz -JVAN-KS04-003<br>
+Hani fatul Hikmah - JVAN-KS04-021<br>
+Dian Rahmi Oktaviani - JVAN-KS04-024<br>
 
 Aplikasi ini dolist ini dibuat  untuk kelulusan kami pada kampus merdeka
 Di Hacktiv8 program Android With Java Native for Android develpement
