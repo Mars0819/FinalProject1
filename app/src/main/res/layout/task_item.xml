@@ -5,101 +5,100 @@
     android:layout_width="match_parent"
     android:layout_margin="10dp"
     android:id="@+id/relativeLayout"
-    android:background="@drawable/button_shape"
+    android:background="@drawable/button_shape">
 
-
-    >
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-      <LinearLayout
-          android:paddingTop="20dp"
-          android:id="@+id/titleRow"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:orientation="horizontal">
-          <ImageView
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_marginTop="16dp"
-              android:layout_marginEnd="16dp"
-              android:layout_marginBottom="8dp"
-              android:layout_marginStart="20dp"
-              android:src="@drawable/ic_baseline_text_fields_24"
-              />
-          <TextView
-              android:textColor="@color/White"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_marginTop="5dp"
-              android:textSize="15sp"
-              android:layout_gravity="center_vertical"
-              android:id="@+id/tvTask"
-              android:text="Task"
-              android:fontFamily="@font/poppinsregular"
-              />
-      </LinearLayout>
+        <LinearLayout
+            android:id="@+id/titleRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_baseline_text_fields_24" />
+
+            <TextView
+                android:id="@+id/tvTask"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Task"
+                android:textColor="@color/White"
+                android:textSize="15sp" />
+        </LinearLayout>
+
         <LinearLayout
 
             android:id="@+id/dateRow"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
             android:layout_below="@+id/titleRow"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="8dp"
-                android:layout_marginStart="20dp"
-                android:src="@drawable/ic_baseline_calendar_today_24"
-                />
+                android:src="@drawable/ic_baseline_calendar_today_24" />
 
             <TextView
                 android:id="@+id/dateTitle"
-                android:textColor="@color/White"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:textSize="15sp"
                 android:layout_gravity="center_vertical"
-                android:text="Date"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="-15dp"
                 android:fontFamily="@font/poppinsregular"
-                />
+                android:text="Date"
+                android:textColor="@color/White"
+                android:textSize="12sp" />
 
         </LinearLayout>
+
         <LinearLayout
 
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginLeft="200dp"
             android:layout_below="@+id/dateRow"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingBottom="30dp"
-            >
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="8dp"
-                android:layout_marginStart="20dp"
-                android:src="@drawable/ic_baseline_access_time_24"
-                />
+                android:src="@drawable/ic_baseline_access_time_24" />
 
             <TextView
                 android:id="@+id/timeTitle"
-                android:textColor="@color/White"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:textSize="15sp"
                 android:layout_gravity="center_vertical"
-                android:text="Time"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="-15dp"
                 android:fontFamily="@font/poppinsregular"
+                android:text="Time"
+                android:textColor="@color/White"
+                android:textSize="12sp"
 
                 />
 
@@ -108,13 +107,14 @@
 
     </RelativeLayout>
     <Button
-        android:layout_marginTop="20dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="220dp"
         android:id="@+id/btnDelete"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:background="@drawable/ic_baseline_delete_24"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:text="Completed ?"
+        android:fontFamily="@font/poppinsbold"
+        android:background="@drawable/button_task"
         />
 
 </RelativeLayout>
