@@ -36,7 +36,6 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import java.text.DateFormat;
 import java.text.DateFormatSymbols;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -54,6 +53,7 @@ public class MainActivity extends AppCompatActivity  implements  PopupDialogClic
     SQLiteDBHanldler dbHandler;
     List<DoModel> Task;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity  implements  PopupDialogClic
         rvTask.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         doAdapter = new DoAdapter(Task, this);
         rvTask.setAdapter(doAdapter);
+
+
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -319,4 +321,5 @@ public class MainActivity extends AppCompatActivity  implements  PopupDialogClic
             }
         });
     }
+
 }

@@ -13,7 +13,6 @@ import android.os.Vibrator;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import java.net.URI;
 
 public class MyBroadcastReceiver extends BroadcastReceiver {
     @Override
