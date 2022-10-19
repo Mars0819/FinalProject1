@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject1/app/src/main/res/drawable-v24/button_task.xml" value="0.1385" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject1/app/src/main/res/drawable/ic_waktu.xml" value="0.1385" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject1/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject1/app/src/main/res/layout/cancel.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject1/app/src/main/res/layout/dialog_input.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject1/app/src/main/res/layout/task_item.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject1/app/src/main/res/layout/task_item.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject1/app/src/main/res/layout/update.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>

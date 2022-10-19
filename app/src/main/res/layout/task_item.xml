@@ -116,7 +116,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="22dp"
         android:textColor="@color/White"
         android:layout_below="@id/btnDelete"
         android:layout_alignParentRight="true"

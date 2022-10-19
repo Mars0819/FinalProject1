@@ -109,18 +109,18 @@
         android:layout_marginTop="20dp"
         android:layout_below="@id/timeLayout"
         >
+
         <Button
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="10dp"
-            android:text="CANCEL"
             android:id="@+id/btnCancel"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
+            android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
-            android:fontFamily="@font/poppinsregular"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/button_shape"
-            android:textColor="@color/White"
-            />
+            android:fontFamily="@font/poppinsregular"
+            android:text="CANCEL"
+            android:textColor="@color/White" />
 
         <Button
             android:layout_marginTop="5dp"
