@@ -1,8 +1,8 @@
 # FinalProject1 DO-LIST
 ###ANGGOTA KELOMPOK###<br>
-<li>Umar Alfaruq Abdul Aziz -JVAN-KS04-003<br>
-<li>Hani Fatul Hikmah - JVAN-KS04-021,<br>
-<li>Dian Rahmi Oktaviani - JVAN-KS04-024<br>
+<li>Umar Alfaruq Abdul Aziz -JVAN-KS04-003 Mengerjakan Create Todo, dan Update Todo<br>
+<li>Dian Rahmi Oktaviani -Mengerjakan Delete Todo JVAN-KS04-024<br>
+<li>Hani Fatul Hikmah - JVAN-KS04-021-Mengerjakan List -Todo<br>
 
 Aplikasi dolist ini dibuat  untuk salah satu syarat kelulusan kami dari kampus merdeka Di Hacktiv8 program Android With Java Native for Android develpement.<br><hr>
 Aplikasi ini menggunakan Java dan SQLlite dengan dilengkapi fitur didalamnya :<br>
